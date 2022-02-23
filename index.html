@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Практика форм в HTML.</title>
+</head>
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p>Имя</p>
+			<p><input type="text" name="username" value=""></p>
+		</div>
+		<div>
+			<p>Пароль</p>
+			<p><input type="password" name="userpassword" value=""></p>
+		</div>
+		<div>
+			<p>Телефон</p>
+			<p><input type="tel" name="usertelnumber" value=""></p>
+		</div>
+		<div>
+			<p>Пол</p>
+			<p><input type="radio" name="gender" value="">Мужской</p>
+			<p><input type="radio" name="gender" value="">Женский</p>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<p><input type="checkbox" name="have" value="">Велосипед</p>
+			<p><input type="checkbox" name="have" value="">Автомобиль</p>
+			<p><input type="checkbox" name="have" value="">Квартира</p>
+			<p><input type="checkbox" name="have" value="">Загородный дом</p>
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea name="aboutMe" id="" cols="30" rows="5"></textarea>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input type="file" name="picture">
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select name="favouriteColor">
+				<option value="none">Не выбрано</option>
+				<option value="red">Красный</option>
+				<option value="green">Зелёный</option>
+				<option value="blue">Синий</option>
+				<option value="black">Чёрный</option>
+				<option value="white">Белый</option>
+			</select>
+		</div>
+		<div>
+			<button type="submit">Отправить</button>
+			<button type="reset">Очистить</button>
+		</div>
+		<div>
+			<p> </p>
+		</div>
+		<div>
+			<p>Данный сайт сделан исключительно в учебных целях. Введённые вами данные никуда никогда не отправятся.</p>
+			<p>Это только для практики форм в <a target="_blank" href="https://ru.wikipedia.org/wiki/HTML">HTML.</a></p>
+		</div>
+	</form>
+</body>
+</html>
